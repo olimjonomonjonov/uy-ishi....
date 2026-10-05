@@ -1,0 +1,91 @@
+body {
+    background-color: #7d7d7d;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 56px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #ff4b00;
+}
+
+.phone {
+    color: white;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 34px;
+    margin-bottom: 62px;
+}
+
+h1 span {
+    color: #ff5a00;
+}
+
+.cards {
+    display: flex;
+    gap: 8px;
+    padding: 0 21px;
+}
+
+.card {
+    background-color: #575757;
+    width: 33.33%;
+    height: 235px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 13px;
+}
+
+.card h2 {
+    color: #ff5a00;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: white;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.mentor {
+    height: 80px;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.react {
+    color: #00eaff;
+    font-size: 68px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 13px;
+}
